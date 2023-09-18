@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+## Pokémon App
+    A simple Pokémon app built with React, Axios, and Tailwind CSS that allows users to search for Pokémon by name and view their details.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+* Features
+* Technology Stack
+* Installation
+* Usage
+* Contributing
+* License
 
-### `npm start`
+# Features
+- Search for Pokémon by name.
+- Display Pokémon's sprite image and base stats.
+- View a modal with Pokémon's abilities, moves, types, and species.
+- Error handling for empty search and not found Pokémon.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technology Stack
+- Frontend: React, Axios, Tailwind CSS
+- API: [PokéAPI](https://pokeapi.co/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Installation
+1. Clone the repository on terminal:
+    git clone https://github.com/Renaissance-Innovation-Labs/Pokeman-Image-Generator.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Change to the project directory:
+    cd pokemon-app
 
-### `npm run build`
+3. Install the required dependencies:
+    npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Usage
+1. Start the development server:
+    npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Open your web browser and visit the localhost port to use the Pokémon app.
 
-### `npm run eject`
+# Contributing
+    We welcome contributions from the community to improve and enhance this Pokémon app. If you'd like to contribute, please follow these guidelines:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository on GitHub.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Clone your forked repository to your local machine:
+    git clone https://github.com/Renaissance-Innovation-Labs/Pokeman-Image-Generator.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Create a new branch for your feature or bug fix:
+    git checkout -b feature-name
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Make your changes and commit them with descriptive commit messages:
+    git commit -m "Add feature-name"
 
-## Learn More
+5. Push your changes to your forked repository:
+    git push origin feature-name
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Create a new Pull Request on the original repository, describing your changes and improvements.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. Your Pull Request will be reviewed, and if everything is satisfactory, it will be merged into the main project.
